@@ -1,3 +1,5 @@
+// https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html#install-sam-cli-instructions
+
 package com.aws.lambda;
 
 import com.amazonaws.services.lambda.runtime.ClientContext;
