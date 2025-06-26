@@ -7,7 +7,7 @@ public class LambdaHandler implements RequestHandler<String, String> {
 
 	@Override
 	public String handleRequest(String input, Context context) {
-		
+
 		context.getLogger().log("Received input: " + input);
 		return "Hello, " + input + "! This is a Java Lambda Function.";
 	}

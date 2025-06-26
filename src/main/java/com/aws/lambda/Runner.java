@@ -6,9 +6,9 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 
 public class Runner {
-	
+
 	public static void main(String[] args) {
-		
+
 		LambdaHandler handler = new LambdaHandler();
 
 		// Create a mock context
